@@ -115,7 +115,7 @@ while True:
         u.start()
         print("\033[33m[\033[1m \033[92m_SFT'84_\033[0m \033[31mReqHost" +ip+ " \033[33mport \033[95m" +str(port)+ "")
         time.sleep(1),
-        print("\033[32m[\033[1m \033[92m_SFT'84_\033[0m \033[33mReqHost" +ip+ " \033[33msize \033[97m" +str(packets)+ "")
+        print("\033[32m[\033[1m \033[92m_SFT'84_\033[0m \033[33mReqHost" +ip+ " \033[33msize \033[97m" +str(self)+ "")
         time.sleep(1),
     except KeyboardInterrupt:
         print ("Stopping Flood!")
